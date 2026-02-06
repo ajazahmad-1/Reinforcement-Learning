@@ -60,7 +60,7 @@ optimal_policy = extract_policy()
 print("Optimal Policy:")
 print(optimal_policy.reshape((4, 4)))  # Reshaped for visualization as a 4x4 grid
 
-# Optional: Testing the policy by simulating it
+#Testing the policy by simulating it
 state = env.reset()[0]
 done = False
 total_reward = 0
