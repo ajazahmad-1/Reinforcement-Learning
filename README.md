@@ -36,15 +36,3 @@ Environment Used
 Gymnasium
 
 FrozenLake-v1
-
-Key Concepts
-
-Markov Decision Process (MDP)
-
-Value Iteration
-
-Dynamic Programming
-
-Optimal Policy
-
-Bellman Optimality Equation
