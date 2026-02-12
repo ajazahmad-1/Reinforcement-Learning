@@ -1,38 +1,73 @@
-Value Iteration on FrozenLake (Gymnasium)
-Objective
+🧊 Value Iteration on FrozenLake (Gymnasium)
+📌 Objective
 
-The goal of this assignment is to understand and implement Value Iteration, a core dynamic programming algorithm used to solve Markov Decision Processes (MDPs).
+The goal of this project is to understand and implement Value Iteration, a fundamental dynamic programming algorithm used to solve Markov Decision Processes (MDPs).
 
-In this project, Value Iteration is applied to the FrozenLake-v1 environment from Gymnasium to find an optimal policy that maximizes the expected reward.
+In this implementation, Value Iteration is applied to the FrozenLake-v1 environment from Gymnasium to compute an optimal policy that maximizes the expected cumulative reward.
 
-Background
+📖 Background
 
-Value Iteration is a simple yet powerful algorithm that combines:
+Value Iteration is a powerful algorithm that combines:
 
-Policy Evaluation – estimating how good a state is
+Policy Evaluation – Estimating how good each state is (state-value function)
 
-Policy Improvement – choosing better actions based on those estimates
+Policy Improvement – Selecting actions that maximize expected future rewards
 
-Instead of performing these as separate steps, Value Iteration updates the value function directly until it converges to the optimal value function.
+Unlike traditional Policy Iteration, which performs evaluation and improvement in separate steps, Value Iteration updates the value function directly using the Bellman Optimality Equation until convergence.
 
- Approach
+The algorithm guarantees convergence to the optimal value function for finite MDPs.
 
-Initialize the value function for all states.
+🛠️ Approach
 
-Iteratively update the value of each state using the Bellman optimality equation.
+The implementation follows these steps:
 
-Continue updates until the value function converges.
+Initialize the Value Function
+Assign an initial value (typically zeros) to all states.
 
-Derive the optimal policy from the final value function.
+Convergence Check
+Repeat updates until the maximum change in the value function is below a predefined threshold (ε).
 
-Outcome
+Policy Extraction
+Derive the optimal policy by selecting the action that maximizes the expected return for each state.
 
-An optimal value function for the FrozenLake environment
+🎯 Outcome
 
-An optimal policy that maximizes the expected reward
+✅ Optimal Value Function for the FrozenLake environment
 
-Environment Used
+✅ Optimal Policy that maximizes expected reward
 
-Gymnasium
+✅ Better understanding of dynamic programming methods in Reinforcement Learning
 
-FrozenLake-v1
+🌍 Environment
+
+Library: Gymnasium
+
+Environment: FrozenLake-v1
+
+State Space: Discrete
+
+Action Space: Discrete
+
+Type: Stochastic Gridworld
+
+🚀 How to Run
+pip install gymnasium
+
+
+Then run:
+
+python value_iteration.py
+
+📚 Concepts Covered
+
+Markov Decision Processes (MDPs)
+
+Bellman Optimality Equation
+
+Dynamic Programming
+
+Value Iteration
+
+Policy Extraction
+
+Convergence Criteria
