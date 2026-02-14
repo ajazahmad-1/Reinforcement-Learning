@@ -1,11 +1,10 @@
 Value Iteration on FrozenLake (Gymnasium)
-Objective
 
 The goal of this project is to understand and implement Value Iteration, a fundamental dynamic programming algorithm used to solve Markov Decision Processes (MDPs).
 
 In this implementation, Value Iteration is applied to the FrozenLake-v1 environment from Gymnasium to compute an optimal policy that maximizes the expected cumulative reward.
 
-📖 Background
+Background
 
 Value Iteration is a powerful algorithm that combines:
 
