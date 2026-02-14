@@ -1,5 +1,5 @@
-🧊 Value Iteration on FrozenLake (Gymnasium)
-📌 Objective
+Value Iteration on FrozenLake (Gymnasium)
+Objective
 
 The goal of this project is to understand and implement Value Iteration, a fundamental dynamic programming algorithm used to solve Markov Decision Processes (MDPs).
 
@@ -30,15 +30,15 @@ Repeat updates until the maximum change in the value function is below a predefi
 Policy Extraction
 Derive the optimal policy by selecting the action that maximizes the expected return for each state.
 
-🎯 Outcome
+Outcome
 
-✅ Optimal Value Function for the FrozenLake environment
+Optimal Value Function for the FrozenLake environment
 
-✅ Optimal Policy that maximizes expected reward
+Optimal Policy that maximizes expected reward
 
-✅ Better understanding of dynamic programming methods in Reinforcement Learning
+Better understanding of dynamic programming methods in Reinforcement Learning
 
-🌍 Environment
+Environment
 
 Library: Gymnasium
 
@@ -50,7 +50,7 @@ Action Space: Discrete
 
 Type: Stochastic Gridworld
 
-🚀 How to Run
+How to Run
 pip install gymnasium
 
 
@@ -58,7 +58,7 @@ Then run:
 
 python value_iteration.py
 
-📚 Concepts Covered
+Concepts Covered
 
 Markov Decision Processes (MDPs)
 
