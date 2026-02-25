@@ -4,7 +4,7 @@ The goal of this project is to understand and implement Value Iteration, a funda
 
 In this implementation, Value Iteration is applied to the FrozenLake-v1 environment from Gymnasium to compute an optimal policy that maximizes the expected cumulative reward.
 
-Background
+Background:
 
 Value Iteration is a powerful algorithm that combines:
 
